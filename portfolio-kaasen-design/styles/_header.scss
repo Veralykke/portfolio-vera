@@ -1,0 +1,54 @@
+.logo {
+    height: 16px;
+    width: auto;
+    margin-left: 45px;
+    margin-top: -207px;
+    position: fixed;
+}
+
+.logo-index {
+    height: 16px;
+    width: auto;
+    margin-left: 45px;
+    margin-top: -110px;
+    position: fixed;
+}
+
+.logo-om-meg {
+    height: 16px;
+    width: auto;
+    margin-left: 45px;
+    margin-top: -131px;
+    position: fixed;
+}
+
+.logo-kontakt-meg {
+    height: 16px;
+    width: auto;
+    margin-left: 45px;
+    margin-top: -953px;
+    position: fixed;
+}
+
+.logo-prosjekter {
+    height: 16px;
+    width: auto;
+    margin-left: 45px;
+    margin-top: 47px;
+    position: fixed;
+}
+
+@media only screen and (min-width: 375px) {
+    .logo-kontakt-meg {
+        margin-top: -952px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .logo-index {
+        margin-top: -164px;
+    }
+    .logo-kontakt-meg {
+        margin-top: -952px;
+    }
+}

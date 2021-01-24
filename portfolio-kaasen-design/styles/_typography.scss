@@ -1,0 +1,61 @@
+h1 {
+    font-family: $ff-title;
+    color: $primaryColour;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 158px;
+}
+
+h2 {
+    margin-top: 14px;
+    text-align: center;
+    font-family: $ff-text;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: $ff-text !important;
+    font-size: 1.4em !important;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1em;
+}
+
+@media only screen and (min-width: 375px) {
+    h1 {
+        font-size: 1.8em;
+        margin-top: 171px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 3.8em;
+        margin-top: 218px;
+    }
+    .prosjekt-mob {
+        height: 695px;
+        width: auto;
+        margin-bottom: 110px;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    h1 {
+        font-size: 3.8em;
+        margin-top: 171px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    h1 {
+        font-size: 8.8em;
+        margin-top: 162px;
+    }
+    .logo-index {
+        margin-top: -108px;
+    }
+}

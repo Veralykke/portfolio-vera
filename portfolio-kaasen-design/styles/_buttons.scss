@@ -1,0 +1,37 @@
+button {
+    height: 35px;
+    width: 135px;
+    background-color: $primaryBtn;
+    color: $btnText;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 0 auto;
+    margin-top: 48px;
+    border: none;
+    border-radius: 15px;
+    font-size: 1em;
+    //transition: .3s ease $primaryColour;
+}
+
+.button-img {
+    margin-bottom: 95px;
+    margin-top: 10px;
+    height: 35px;
+    width: 135px;
+    background-color: $primaryBtn;
+    color: $btnText;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 0 auto;
+    margin-top: -20px;
+    border: none;
+    border-radius: 15px;
+}
+
+//BUTTONS ON INFO SITE
+.infoBtn {
+    margin-right: 200px;
+    width: 125px;
+}

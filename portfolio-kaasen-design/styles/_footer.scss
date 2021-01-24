@@ -1,0 +1,38 @@
+ /* .footer {
+    height: 100px;
+    background-color: #9b8a6d;
+    width: auto;
+    font-size: 0.8em;
+    text-align: center;
+    padding-top: 215px;
+    color: white;
+    margin-top: 385px;
+}
+
+.footer-kontakt-meg {
+    height: 100px;
+    background-color: #9b8a6d;
+    width: auto;
+    font-size: 0.8em;
+    text-align: center;
+    padding-top: 215px;
+    color: white;
+    margin-top: 684px;
+}
+
+@media only screen and (min-width: 1366px) {
+    .footer {
+        margin-top: 528px;
+    }
+} */
+ 
+ .footer {
+     height: 100px;
+     background-color: $primaryColour;
+     width: auto;
+     font-size: 0.8em;
+     text-align: center;
+     padding-top: 59px;
+     color: white;
+     margin-top: 1000px;
+ }
